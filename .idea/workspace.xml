@@ -4,108 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ef0ba75-4807-4836-8ea7-986cf5446b4c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/microservices.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java2MicroServicesSchema.drawio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KubernatesYMLs/deployment_auth.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KubernatesYMLs/deployment_config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KubernatesYMLs/deployment_elastic.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KubernatesYMLs/deployment_gateway.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KubernatesYMLs/deployment_main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KubernatesYMLs/deployment_mongodb.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KubernatesYMLs/deployment_postgresql.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KubernatesYMLs/deployment_rabbitmq.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KubernatesYMLs/deployment_redis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KubernatesYMLs/deployment_user.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KubernatesYMLs/deployment_zipkin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KubernatesYMLs/islemAdimlari.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KubernatesYMLs/secret_object.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KubernatesYMLs/services_clusterip_auth_service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KubernatesYMLs/services_clusterip_config_server.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KubernatesYMLs/services_clusterip_elastic_service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KubernatesYMLs/services_clusterip_main_service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KubernatesYMLs/services_clusterip_user_service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KubernatesYMLs/services_loadbalancer_gateway.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KubernatesYMLs/services_loadbalancer_mongo.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-client-git/src/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server-git/src/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elastic-service/src/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/MainApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/constants/ApiUrls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/controller/SoruController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/controller/SoruGrupController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/controller/YarismaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/controller/YarismaSoruController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/dto/request/CevaplarRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/dto/request/DoLoginRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/dto/request/RegisterRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/dto/request/SoruEklemeRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/dto/request/SoruGrupRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/dto/request/SoruRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/dto/request/YarismaRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/dto/request/YarismaSoruRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/exception/ErrorMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/exception/ErrorType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/exception/MainManagerException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/mapper/IYarismaMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/mapper/IYarismaSoruMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/repository/entity/Cevaplar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/repository/entity/DereceYapanlar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/repository/entity/Goruntulenme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/repository/entity/Katilim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/repository/entity/SoruGrubu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/repository/entity/Sorular.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/repository/entity/TableAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/repository/entity/Yarisma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/repository/entity/YarismaSorulari.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/repository/enums/ICevaplarRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/repository/enums/IDereceYapanlarRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/repository/enums/IGoruntulenmeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/repository/enums/IKatilimRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/repository/enums/ISoruGrubuRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/repository/enums/ISorularRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/repository/enums/IYarismaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/repository/enums/IYarismaSorulariRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/repository/enums/KatilimDurumu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/repository/enums/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/repository/enums/UserType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/repository/enums/YarismaDurumu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/service/CevaplarService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/service/DereceYapanlarService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/service/GoruntulenmeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/service/KatilimService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/service/SoruGrubuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/service/SorularService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/service/YarismaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/service/YarismaSorulariService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/utility/IServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/utility/JwtTokenManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/java/com/recepkabakci/utility/ServiceManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/secret-keys.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/recepkabakci/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/build.gradle" afterDir="false" />
+    <list default="true" id="1ef0ba75-4807-4836-8ea7-986cf5446b4c" name="Changes" comment="Microservices Project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +31,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "18"
+    "jdk.selected.JAVA_MODULE": "18",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -151,6 +52,21 @@
       <option name="presentableId" value="Default" />
       <updated>1666792911287</updated>
     </task>
+    <task id="LOCAL-00001" summary="Microservices Project">
+      <created>1666802809886</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666802809886</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Microservices Project">
+      <created>1666802866152</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666802866152</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,5 +79,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Microservices Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Microservices Project" />
   </component>
 </project>
