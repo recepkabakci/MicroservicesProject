@@ -1,0 +1,10 @@
+rootProject.name = 'Bilgeadam_Boost2_Microservices'
+include 'auth-service'
+include 'user-service'
+include 'main-service'
+include 'config-server'
+include 'api-gateway-service'
+include 'config-server-git'
+include 'config-client-git'
+include 'elastic-service'
+
